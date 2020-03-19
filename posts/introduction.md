@@ -6,7 +6,7 @@ The purpose of this blog is to document my learning on the following topics
 - Linux Malware Analysis
 - Reverse Engineering
 
-Reverse Engineering is a broad field which requires a lot of knowledge above diverse areas.
+Reverse Engineering is a broad field which requires a lot of knowledge about diverse areas.
  Since the platform of choice for us is Linux we will name tools specific to Linux.
 
 - OS Internals - Linux, kernel, libc
