@@ -1,4 +1,4 @@
-## Test Page                                                                ## [Contact](posts/contact.md)
+## Test Page
 
 ### Test new Page
 
