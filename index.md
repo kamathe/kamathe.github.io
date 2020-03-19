@@ -2,4 +2,4 @@
 
 ### Test new Page
 
-## [testlink to new blog](https://github.com/kamathe/kamathe.github.io/test1.md)
+## [testlink to new blog](posts/test1.md)
