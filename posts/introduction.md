@@ -1,25 +1,23 @@
-### test blog
+# Introduction
 
+The purpose of this blog is to document my learning on the following topics
 
-### Test page
+- Linux Security
+- Linux Malware Analysis
+- Reverse Engineering
 
+Reverse Engineering is a broad field which requires a lot of knowledge above diverse areas given below
+Since the platform of choice for us is Linux we will name tools specific to Linux
 
-## Another test page
-
-#### BLAH BLAH BLAH
-
-```
-fn main() {
-    println!("Hello, world!");
-}
-```
-
-
-- Test list1
-- test list2
-
-1. Number1
-2. Number2
-
-
-This text is in **BOLD** and this is _Italic_ and this is `Code` text
+- OS Internals - Linux, kernel, libc
+- File Formats - ELF, others
+- Debuggers - gdb, crash, kdb
+- Compilers - gcc, llvm
+- Linkers - ld
+- Assembler - as
+- Machine architecture - x86, ARM
+- Assembly Language - 32-bit/64-bit, Intel/ATT syntax
+- General system tools - strace, ltrace, lsof, proc, ps etc
+- Binary Analysis tools - radare2, objdump, readelf, hexdump
+- Scripting - bash, Python
+- Languages - C, C++, Other compiled languages
