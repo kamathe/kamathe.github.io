@@ -23,10 +23,12 @@ Reverse Engineering is a broad field which requires a lot of knowledge above div
 - Languages - C, C++, Other compiled languages
 
 
-We also have to learn about malicious programs and techniques that they use
+We also have to learn about malicious programs and techniques that they use often
 
 - Packer/Unpackers - upx, others
 - Ransomware - encryption/decryption
+- Code Obfuscation 
+- Anti-reversing 
 
 
 Following are some amazing resources related to our topic of intereset
