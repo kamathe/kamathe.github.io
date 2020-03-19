@@ -6,7 +6,7 @@ The purpose of this blog is to document my learning on the following topics
 - Linux Malware Analysis
 - Reverse Engineering
 
-Reverse Engineering is a broad field which requires a lot of knowledge above diverse areas given below
+Reverse Engineering is a broad field which requires a lot of knowledge above diverse areas
 Since the platform of choice for us is Linux we will name tools specific to Linux
 
 - OS Internals - Linux, kernel, libc
@@ -21,3 +21,9 @@ Since the platform of choice for us is Linux we will name tools specific to Linu
 - Binary Analysis tools - radare2, objdump, readelf, hexdump
 - Scripting - bash, Python
 - Languages - C, C++, Other compiled languages
+
+
+Following are some amazing resources related to our topic of intereset
+
+- Linux Malware [Malware Must Die Blog](https://blog.malwaremustdie.org/)
+- Linux Exploitation [InfoSect Blog](https://blog.infosectcbr.com.au/)
