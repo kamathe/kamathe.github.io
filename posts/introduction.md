@@ -21,6 +21,8 @@ Reverse Engineering is a broad field which requires a lot of knowledge above div
 - Binary Analysis tools - radare2, objdump, readelf, hexdump
 - Scripting - bash, Python
 - Languages - C, C++, Other compiled languages
+- Networking/Web - Internet, TCP/IP, HTTP[S], DNS, tshark
+- Forensics - Filesystem, Memory, Network
 
 
 We also have to learn about malicious programs and techniques that they use often
