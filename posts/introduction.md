@@ -22,7 +22,7 @@ Reverse Engineering is a broad field which requires a lot of knowledge about div
 - Binary Analysis tools - radare2, objdump, readelf, hexdump
 - Scripting - bash, Python
 - Languages - C, C++, Other compiled languages
-- Networking/Web - Internet, TCP/IP, HTTP[S], DNS, tshark
+- Networking/Web - Internet, TCP/IP, HTTP[S], DNS, tshark, JavaScript
 - Forensics - Filesystem, Memory, Network
 
 
