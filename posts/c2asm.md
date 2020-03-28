@@ -42,7 +42,7 @@ int main() {
 $ 
 ```
 
-Lets compile it to an `object file`, remember `object file` and not an executable. To do this use the -c option
+Lets compile it to an `object file`, remember `object file` and not an executable. To do this use the `-c` option
 Also do not forget the `-g` flag for debugging info. Without this `objdump` wont work as expected
 You will get a resulting file with a `.o` extention
 
@@ -100,7 +100,7 @@ This is a problem, lets get to solving it in the easiest way we can.
 I am sure we all have read books on Programming, these days its all to easy to upload the sample code used
 within the book to the publisher's website so people can simply download it and make use it instead of
 writing it themselves. If you learning to program in a specific language i'd suggest you to write the code
-yourself and not be lazy. However our purpose here is to learn assembly that is generate from C programs.
+yourself and not be lazy. However our purpose here is to learn assembly that is generated from C programs.
 Well how about we try to solve our problem with this feature ?
 
 Steps
@@ -125,11 +125,13 @@ Saving to: ‘9780321928429_CPrimerPlus6E_code.zip’
 9780321928429_CPrimerPlus6E_code. 100%[=============================================================>] 126.96K   179KB/s    in 0.7s    
 
 2020-03-28 22:56:30 (179 KB/s) - ‘9780321928429_CPrimerPlus6E_code.zip’ saved [130008/130008]
-
 $ 
+
 $ ls -l 9780321928429_CPrimerPlus6E_code.zip 
 -rw-rw-r--. 1 kamathe kamathe 130008 Nov  5  2013 9780321928429_CPrimerPlus6E_code.zip
 $ 
+
+
 $ ls -l
 total 136
 drwxr-xr-x. 20 kamathe kamathe    400 Nov  4  2013 9780321928429_CPrimerPlus6E_code
