@@ -312,4 +312,8 @@ int main(void)
 
 ## Conclusion
 
-Hope this gets you started to learn about Assembly from compiled C source code files
+Hope this gets you started to learn about Assembly from compiled C source code files, however remember
+this is just a start, there are multiple ways in which the assembly can differ. For example of the compiler
+`gcc` is in this case employs optimization then the assembly generated will be very different than what
+we see above. Also malware might use various obfuscation techniques to throw off an analyst, however knowing
+what normal looks like will help you to identify what abnormal looks like. So keep going !
