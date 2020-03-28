@@ -209,24 +209,14 @@ programs, so this lets compare 32-bit assembly with 64-bit assembly. How cool !
 
 
 ```
-$ find 9780321928429_CPrimerPlus6E_code/ | grep 32$ | tail
-9780321928429_CPrimerPlus6E_code/Ch03/showf_pt_32
-9780321928429_CPrimerPlus6E_code/Ch03/toobig_32
-9780321928429_CPrimerPlus6E_code/Ch03/typesize_32
-9780321928429_CPrimerPlus6E_code/Ch02/fathm_ft_32
-9780321928429_CPrimerPlus6E_code/Ch02/first_32
+$ find 9780321928429_CPrimerPlus6E_code/ | grep 32$ | tail -5
 9780321928429_CPrimerPlus6E_code/Ch02/stillbad_32
 9780321928429_CPrimerPlus6E_code/Ch02/two_func_32
 9780321928429_CPrimerPlus6E_code/Ch01/inform_32
 9780321928429_CPrimerPlus6E_code/Ch01/listing1_32
 9780321928429_CPrimerPlus6E_code/Ch01/listing2_32
 
-]$ find 9780321928429_CPrimerPlus6E_code/ | grep 64$ | tail
-9780321928429_CPrimerPlus6E_code/Ch03/showf_pt_64
-9780321928429_CPrimerPlus6E_code/Ch03/toobig_64
-9780321928429_CPrimerPlus6E_code/Ch03/typesize_64
-9780321928429_CPrimerPlus6E_code/Ch02/fathm_ft_64
-9780321928429_CPrimerPlus6E_code/Ch02/first_64
+$ find 9780321928429_CPrimerPlus6E_code/ | grep 64$ | tail -5
 9780321928429_CPrimerPlus6E_code/Ch02/stillbad_64
 9780321928429_CPrimerPlus6E_code/Ch02/two_func_64
 9780321928429_CPrimerPlus6E_code/Ch01/inform_64
