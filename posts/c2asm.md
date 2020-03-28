@@ -103,7 +103,7 @@ writing it themselves. If you learning to program in a specific language i'd sug
 yourself and not be lazy. However our purpose here is to learn assembly that is generated from C programs.
 Well how about we try to solve our problem with this feature ?
 
-###Steps
+### Steps
 
 - Download C source code freely available online (mostly linked to a book)
 - Compile all the source code (to object files and NOT executables)
