@@ -12,6 +12,8 @@ To make matters worse there are multiple architectures other than x86 and ARM, a
 assembly language. However you should start somewhere, start with the architecture that you have accces to.
 Well at least you don't have to write assembly, you have to simply learn to read it, well just enough to get by.
 
+### Learn from the masters
+
 Often times you will hear experienced reverse engineers about how they would write small programs (often in C)
 and then compile it and view the assembly it was generating, they did it so often that the conversion from C
 to assembly was imprinted in their minds. So whenever they came across assembly code they could make some
