@@ -99,10 +99,10 @@ code for and compile them and run objdump on then and get the equivalent assembl
 This is a problem, lets get to solving it in the easiest way we can.
 
 
-I am sure we all have read books on Programming, these days its all to easy to upload the sample code used
-within the book to the publisher's website so people can simply download it and make use it instead of
-writing it themselves. If you learning to program in a specific language i'd suggest you to write the code
-yourself and not be lazy. However our purpose here is to learn assembly that is generated from C programs.
+I am sure we all have read books on programming, sample code within these books is often uploaded to 
+the publisher's website so people can simply download it and make use it instead of writing it themselves.
+If you learning to program in a specific language I'd suggest you to write the code yourself and not be lazy.
+However our purpose here is to learn assembly that is generated from C programs.
 Well how about we try to solve our problem with this feature ?
 
 ### Steps
