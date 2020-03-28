@@ -128,12 +128,12 @@ Saving to: ‘9780321928429_CPrimerPlus6E_code.zip’
 
 $ 
 $ ls -l 9780321928429_CPrimerPlus6E_code.zip 
--rw-rw-r--. 1 gkamathe gkamathe 130008 Nov  5  2013 9780321928429_CPrimerPlus6E_code.zip
+-rw-rw-r--. 1 kamathe kamathe 130008 Nov  5  2013 9780321928429_CPrimerPlus6E_code.zip
 $ 
 $ ls -l
 total 136
-drwxr-xr-x. 20 gkamathe gkamathe    400 Nov  4  2013 9780321928429_CPrimerPlus6E_code
--rw-rw-r--.  1 gkamathe gkamathe 130008 Nov  5  2013 9780321928429_CPrimerPlus6E_code.zip
+drwxr-xr-x. 20 kamathe kamathe    400 Nov  4  2013 9780321928429_CPrimerPlus6E_code
+-rw-rw-r--.  1 kamathe kamathe 130008 Nov  5  2013 9780321928429_CPrimerPlus6E_code.zip
 $ 
 ```
 
@@ -240,7 +240,7 @@ C to assembly conversion on x86 architecure
 
 ```
 $ ls -l asm.log 
--rw-rw-r--. 1 gkamathe gkamathe 2008489 Mar 28 22:59 asm.log
+-rw-rw-r--. 1 kamathe kamathe 2008489 Mar 28 22:59 asm.log
 $ 
 ```
 
