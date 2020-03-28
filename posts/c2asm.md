@@ -59,6 +59,8 @@ $
 Now use the `objdump` command with the `-S` option on the `hello.o` object file
 Notice the output carefully, it has the lines of C code from our source `.c` file, followed by assembly
 language instruction for each of the C source code line. Cool isn't it, and very helpful
+
+
 For example for running `return 0` in C, it runs an instruction `mov $0x0,%eax` and so on.
 Yes you will miss a few things like memory addresses where most of it will be marked `$0x0` and named of
 libc functions where it will simply say `callq 13 <main+0x13>` instead of saying `callq printf` or `puts`
