@@ -62,8 +62,8 @@ language instruction for each of the C source code line. Cool isn't it, and very
 
 
 For example for `return 0` in C, it runs an instruction `mov $0x0,%eax` and so on.
-Yes you will miss a few things like memory addresses where most of it will be marked `$0x0` and named of
-libc functions where it will simply say `callq 13 <main+0x13>` instead of saying `callq printf` or `puts`
+Yes you will miss a few things like memory addresses where most of it will be marked `$0x0` and names of
+library functions where it will simply say `callq 13 <main+0x13>` instead of saying `callq printf` or `puts`
 But you will have to make do with what you have got and move further
 
 ```
