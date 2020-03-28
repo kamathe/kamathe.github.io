@@ -46,10 +46,12 @@ Lets compile it to an `object file`, remember `object file` and not an executabl
 Also do not forget the `-g` flag for debugging info. Without this `objdump` wont work as expected
 You will get a resulting file with a `.o` extention
 
+```
 $ gcc -c hello.c -g
 $ ls -l hello.o 
 -rw-rw-r--. 1 kamathe kamathe 5608 Mar 28 23:15 hello.o
 $ 
+```
 
 
 Now use the `objdump` command with the `-S` option on the `hello.o` object file
