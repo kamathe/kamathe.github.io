@@ -60,6 +60,7 @@ Yes you will miss a few things like memory addresses where most of it will be ma
 libc functions where it will simply say `callq 13 <main+0x13>` instead of saying `callq printf` or `puts`
 But you will have to make do with what you have got and move further
 
+```
 $ objdump -S hello.o
 
 hello.o:     file format elf64-x86-64
@@ -82,7 +83,8 @@ int main() {
 }
   18:	5d                   	pop    %rbp
   19:	c3                   	retq   
- $ 
+$ 
+```
 
 
 
