@@ -1,5 +1,6 @@
-# Posts &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [Contact](posts/contact.md)
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [Contact](posts/contact.md)
 
+# Posts
 
 - ## **[C to Assembly](posts/c2asm.md)**
 - ## **[Prelude](posts/prelude.md)**
