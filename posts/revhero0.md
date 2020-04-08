@@ -62,7 +62,7 @@ $
 Lets see, what we got !
 We got a single 64-bit ELF executable file, its dynamically linked and not stripped (lucky me !)
 We also took the md5sum of the file, just in case a new binary gets uploaded to the website with some changes.
-We should be able to recognize the diffrence.
+We should be able to recognize the difference.
 
 
 ```
