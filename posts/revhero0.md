@@ -6,7 +6,7 @@
 While doing the usual twitter idling during this lockdown period, I came across a website 
 called [ReversingHero](https://www.reversinghero.com/) created by `xorpd`. 
 If you are interested in RE like me, you should visit the website.
-It claims to provides a set of RE challenges which you can utilize to hone your RE skills.
+It claims to provides a set of challenges which you can utilize to hone your RE skills.
 
 
 
@@ -79,6 +79,8 @@ $ md5sum reversinghero
 c0f1c3ee6279706356f14696bd5ea882  reversinghero
 $ 
 ```
+
+
 
 
 So we got the challenge, what next ?
