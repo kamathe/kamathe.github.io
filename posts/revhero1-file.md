@@ -5,7 +5,7 @@ So we're trying to solve a set of RE challanges called reversing hero.
 If you don't know about it please refer to `Part 0` post for more details.
 
 When starting with Reversing a binary, you need to first understand the format of the binary.
-Yeah, we have already run `file` command on the given binary in the earlier post. However we are
+Yeah, we have already ran `file` command on the given binary in the earlier post. However we are
 going to dig deeper. Remember we are going to take the longer route !
 
 So let's start afresh by running the `file` command again on our target binary.
