@@ -43,8 +43,7 @@ Well coming from `xorpd` this looks like a good starting point for me.
 Maybe a bit too much for newbie like me, but what the hell ? Lets see how far we go !
 
 
-Well without waiting further, lets see whats in store for us.
-I immediately started with downloading reversinghero.
+Well without waiting further, I immediately started with downloading reversinghero.
 
 
 ```
@@ -69,9 +68,13 @@ We should be able to recognize the difference.
 $ ls -l reversinghero 
 -rw-rw-r--. 1 kamathe kamathe 595896 Mar 28 15:49 reversinghero
 $ 
+
+
 $ file reversinghero 
 reversinghero: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked (uses shared libs), not stripped
 $ 
+
+
 $ md5sum reversinghero 
 c0f1c3ee6279706356f14696bd5ea882  reversinghero
 $ 
@@ -81,8 +84,12 @@ $
 So we got the challenge, what next ?
 Do we immediately fire up our favorite RE tool and start digging ?
 That's not really what i have in mind for now.
+
+
 I want to go slow on this one and take my time, I already assume this is going to be difficult.
 So instead of watching reversing videos and trying out the same things on this binary i want to take the longer route.
+
+
 I am going to utilize standard binary tools available natively on Linux to probe the binary first.
 Find as much information about it as i can and lets take it from there.
 
