@@ -2,6 +2,7 @@
 
 # Posts
 
+- ## **[Reversing Hero - Part 0](posts/revhero0.md)**
 - ## **[C to Assembly](posts/c2asm.md)**
 - ## **[Prelude](posts/prelude.md)**
 - ## **[Introduction](posts/introduction.md)**
