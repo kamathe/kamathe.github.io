@@ -23,7 +23,7 @@ However since these are notes for my future self, lets call out each of them one
 - 64-bit            :   You need a 64-bit machine to run this, also you need to understand 64-bit assembly :)
 - x86-64            :   Its meant to be run on `Intel` or `AMD` architecure, it won't run on other archs
 - dynamic linking   :   So it utilizes functions from `libc`, we can refer to the docs
-- not stripped      :   We'll lets hope you are able to make use of this bonus given by `xorpd`
+- not stripped      :   We'll lets hope we are able to make use of this bonus given by `xorpd`
 
 
 
@@ -109,7 +109,7 @@ $ ltrace file reversinghero
 ```
 
 
-You will see tons of output on your screen, we will focus on the one revelant one's only.
+You will see tons of output on your screen, we will focus on the revelant one's only.
 We immediately see some library functions with the name magic in them being called.
 Well `magic_open`, `magic_load` ? No idea at this point what they do, I couldnt find man entries also.
 Let's take an educated guess for now and move further.
@@ -185,8 +185,8 @@ stat("/usr/lib64/x86_64", 0x7fffb6762af0) = -1 ENOENT (No such file or directory
 ```
 
 
-Finally it is able to find some file and it does an `fstat` on it
-Remember we had ran the ldd command on file above and it was dependant on a `libmagic.so.1` library.
+Finally it is able to find some file and it does an `fstat` on it.  
+Remember we had ran the `ldd` command on file above and it was dependant on a `libmagic.so.1` library.
 Well that library is being looked for and read so file can call functions from it.
 Same procedure is repeated for the all the libraries that `file` command is dependant on.
 
