@@ -8,16 +8,33 @@ called [ReversingHero](https://www.reversinghero.com/) created by `xorpd`.
 If you are interested in RE like me, you should visit the website.
 It claims to provides a set of RE challenges which you can utilize to hone your RE skills.
 
-*ReversingHero is a 15-challenges computer program, designed to teach you Reverse Engineering. 
-It begins from the real basics, and continues into more advanced topics.*
+
+
+
+_*ReversingHero is a 15-challenges computer program, designed to teach you Reverse Engineering. 
+It begins from the real basics, and continues into more advanced topics.*_
+
+
+
 
 Sounds amazing
 
-*To move on to next challenge, you have the solve the previous one. This makes sure that you progress gradually, and reach a challenge only when you are ready to solve it.*
+
+
+
+_*To move on to next challenge, you have the solve the previous one. This makes sure that you progress gradually, and reach a challenge only when you are ready to solve it.*_
+
+
+
 
 So what skills are needed to get started with this ? As per the site this should get you started
 
-*You need to have basic understanding of x86 or x64 assembly. It is also recommended to have some experience with some kind of low level development (like C), and some scripting development (like Python).*
+
+
+
+_*You need to have basic understanding of x86 or x64 assembly. It is also recommended to have some experience with some kind of low level development (like C), and some scripting development (like Python).*_
+
+
 
 
 I have been looking for similar CTF style challenges to get my feet wet.
