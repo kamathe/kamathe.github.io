@@ -504,3 +504,27 @@ memcpy(0x7ffce981cd10, "\2729\375\334\311\305RP\365\021\316\216\213\342\306\263\
 
 
 Phew ! So what next ? Not sure, lets think about it a bit and get back
+One thing I forgot to check and thought of later was this, we started with 1 binary and now we have
+a total of 3 binaries with 2 new added. Are these 2 new binaries more complex than the original one
+who created them ? How do we find out ? One way is size ? More size of `text` and `data` section means
+more code ? more complexity ? Maybe ? Lets compare them. From the looks of it, the binary with least 
+code seems to be `x1`. The other 2 i.e. `p1` and `reversinghero` are somewhat of same size.
+
+
+```
+$ size reversinghero 
+   text	   data	    bss	    dec	    hex	filename
+  17864	 573363	    432	 591659	  9072b	reversinghero
+$ 
+$ size 1/p1 
+   text	   data	    bss	    dec	    hex	filename
+  18407	 543498	    440	 562345	  894a9	1/p1
+$ 
+$ size 1/x1
+   text	   data	    bss	    dec	    hex	filename
+   1490	    530	     72	   2092	    82c	1/x1
+$ 
+```
+
+
+
