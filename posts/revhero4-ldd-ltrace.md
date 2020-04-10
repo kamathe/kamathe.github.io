@@ -17,7 +17,7 @@ $
 ```
 
 
-Some gibberish being thrown onto the screen, no proper message like enter password or key
+Some gibberish being thrown onto the screen, no proper message like enter password or key. 
 However look closely, when you execute the first time the output is different, as compared to
 when you execute it multiple times later where the output is same.
 Hmm so is something happening when you execute it for the first time ?
@@ -96,7 +96,7 @@ Looks at these libc functions closely, they seem to do the following
 - Open a file named `p1`
 - Write some data to it
 - Print output `1/p1`, so this wasn't gibberish afterall
-- Open another file named `x`
+- Open another file named `x1`
 - Write some data to it
 - Print output `1/x1`
 
