@@ -48,10 +48,10 @@ Example
 byte            [55]
                 [l] 
 
-word        [8B | EC]
+word        [8B , EC]
             [h]  [l]
 
-dword [00|01|36|CF]
+dword [00,01,36,CF]
       [high] [low]
 
 
@@ -65,24 +65,24 @@ in memory once the binary is executed.
 
 General Purpose Registers
 
-- 8 general purpose register [eax | ebx | ecx | edx | esp | ebp | esi | edi]
+- 8 general purpose register [eax , ebx , ecx , edx , esp , ebp , esi , edi]
 - Register are 32-bit (4 bytes) in size
 - They can be access as 32-bit (4 bytes), 16-bit (2 bytes), 8-bit (1 byte)
-- Lower 16 bits (2 bytes) [ax | bx | cx | dx | sp | bp | si | di]
-- Lower 8 bits (1 byte)     [al | bl | cl | dl]
-- Higher 8 bits ( 1bytes)   [as | ah | bh | ch]
+- Lower 16 bits (2 bytes) [ax , bx , cx , dx , sp , bp , si , di]
+- Lower 8 bits (1 byte)     [al , bl , cl , dl]
+- Higher 8 bits ( 1bytes)   [as , ah , bh , ch]
 - Instruction pointer [eip]
 - EFLAGS register - 32-bit register, each bit in this register is a glag
-- Segment registers [cs | ss | ds | es | fs | gs]
+- Segment registers [cs , ss , ds , es , fs , gs]
 
 
 Example 
 
 0xC6A93174
 
-[C8|A9|31|74]   -   EAX
+[C8,A9,31,74]   -   EAX
 
-      [31|74]   -   AX
+      [31,74]   -   AX
 
        AH   AL
       [31] [74]
@@ -169,9 +169,9 @@ Example
 
 5D (0101 1101)
 
-[0|1|0|1  1|1|0|1]
+[0,1,0,1  1,1,0,1]
 
-[7|6|5|4  3|2|1|0]  - bit position
+[7,6,5,4  3,2,1,0]  - bit position
 
 not instruction             # takes one operand (servers as source and dest and inverts all bits)
 not eax                     
@@ -443,9 +443,9 @@ General format of accessing elements of an array
 
 Difference between 32-bit and 64-bit architecture
 
-- 32-bit registers (4 bytes)    :       [eax|ebx|ecx|edx|esi|edi|ebp|esp]
-- 64-bit registers (8 bytes)    :       [rax|rbx|rcx|rdx|rsi|rdi|rbp|rsp]
-- 64-bit has 8 NEW registers    :       [r8|r9|r10|r11|r12|r13|r14|r15]
+- 32-bit registers (4 bytes)    :       [eax,ebx,ecx,edx,esi,edi,ebp,esp]
+- 64-bit registers (8 bytes)    :       [rax,rbx,rcx,rdx,rsi,rdi,rbp,rsp]
+- 64-bit has 8 NEW registers    :       [r8,r9,r10,r11,r12,r13,r14,r15]
 
 
 - x64 handles 64-bit (8 bytes) data, all addresses and pointers are 64-bit in size
@@ -453,5 +453,5 @@ Difference between 32-bit and 64-bit architecture
 - x64 supports `rip-relative` addressing, i.e. RIP register can now be used to reference mem locations
 
 - In 32-bit function parameters were pushed on stack
-- In x64 arch first 4 parameters passed in [rcx|rdx|r8|r9], additional params saved on stack
+- In x64 arch first 4 parameters passed in [rcx,rdx,r8,r9], additional params saved on stack
 
