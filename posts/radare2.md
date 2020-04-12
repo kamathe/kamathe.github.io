@@ -45,6 +45,7 @@ I will keep updating this post as I learn more about radare2
 ## Loading binary in radare2
 ## Various view available in radare2
 ## Moving between various views
+## radare2 configuration
 ## Find out various functions within the binary
 ## Find out the `Imports` functions
 ## Find out the `Exports` functions
@@ -53,7 +54,7 @@ I will keep updating this post as I learn more about radare2
 ## Starting project, saving project How to
 ## Renaming variables, location, function names
 ## How to add our comments
-## Navingating/Seeking to various locations in the binary
+## Navigating/Seeking to various locations in the binary
 ## Find Cross-References or XREFS for code and data, listing
 ## Graph views How to ?
 ## Finding information on Linux API's, libc functions, system calls etc
