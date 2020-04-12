@@ -3,7 +3,6 @@
 # Posts
 
 
-- ## **[Assembly 101](posts/assembly101.md)**
 - ## **[Reversing Hero - Part 4, using ldd, ltrace command](posts/revhero4-ldd-ltrace.md)**
 - ## **[Reversing Hero - Part 3, using nm command](posts/revhero3-nm.md)**
 - ## **[Reversing Hero - Part 2, using strings command](posts/revhero2-strings.md)**
