@@ -47,6 +47,11 @@ I will keep updating this post as I learn more about radare2
 ## Moving between various views
 ## radare2 configuration
 ## Find out various functions within the binary
+
+command | Description
+-------  ------------
+afl     | Show all functions
+
 ## Find out the `Imports` functions
 ## Find out the `Exports` functions
 ## List various `Strings` present in the binary
