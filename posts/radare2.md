@@ -57,6 +57,7 @@ I will keep updating this post as I learn more about radare2
 ## Navigating/Seeking to various locations in the binary
 ## Find Cross-References or XREFS for code and data, listing
 ## Graph views How to ?
+## Decompilation and pseudo code with different decompiler plugins
 ## Finding information on Linux API's, libc functions, system calls etc
 ## Scripting capability of radare2
 ## Understanding various plugins, how to install and their uses
