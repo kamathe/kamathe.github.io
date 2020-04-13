@@ -52,7 +52,6 @@ I will keep updating this post as I learn more about radare2
 ---
 command: afl
 description: show all functions
-
 ---
 
 
