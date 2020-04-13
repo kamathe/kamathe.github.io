@@ -50,9 +50,9 @@ I will keep updating this post as I learn more about radare2
 
 
 
- |   command        |    Description         |
- |  :------------:  |   :-----------------:  |
- |   afl            |   Show all functions   |
+|  command      |  Description       |
+| ------------  | -----------------  |
+|  afl          | Show all functions |
 
 ## Find out the `Imports` functions
 ## Find out the `Exports` functions
