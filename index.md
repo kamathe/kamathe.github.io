@@ -3,6 +3,7 @@
 # Posts
 
 
+- ## **[Build a Linux profile for Volatitliy](posts/volatility-linux-profile.md)**
 - ## **[Volatility Cheat Sheet](posts/volatility-cheat.md)**
 - ## **[radare2 Introduction](posts/radare2.md)**
 - ## **[Reversing Hero - Part 4, using ldd, ltrace command](posts/revhero4-ldd-ltrace.md)**
