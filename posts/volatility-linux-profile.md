@@ -19,7 +19,7 @@ we want to try out Volatility using the following steps.
 
 ## Pre-requisite packages
 
-Apart from having volatility repo cloned, you need to install the following packages installed. I am trying
+Apart from having volatility repo cloned, you need to install the following packages. I am trying
 out these examples on a Redhat system, find the appropriate packages for Ubuntu.
 
 ```
@@ -80,6 +80,9 @@ $ ls -l /boot/System.map-4.18.0-193.el8.x86_64
 -rw-------. 1 root root 3909996 Mar 27 10:47 /boot/System.map-4.18.0-193.el8.x86_64
 $
 ```
+
+## Building the actual profile
+
 
 So, coming to the final step where the actual profile is built.
 We need to run the zip command, follow the exact path for saving the zip file within volatility repo.
