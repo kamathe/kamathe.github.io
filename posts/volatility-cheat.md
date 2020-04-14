@@ -53,7 +53,7 @@ $ grep 'python vol.py' Command-Reference  | wc -l
 $ 
 ```
 
-## Following is the complete `Volatility Cheat Sheet` which we will refer when we get started
+Following is the complete `Volatility Cheat Sheet` which we will refer when we get started
 
 
 ```
@@ -147,7 +147,7 @@ python vol.py mbrparser -f AnalysisXPSP3.vmem -o 0x600 -D 0x1b
 python vol.py -f Bob.vmem mftparser
 python vol.py -f grrcon.img mftparser --output=body -D output --output-file=grrcon_mft.body
 python vol.py -f Bob.vmem --profile=WinXPSP2x86 strings -s export.txt 
-$ python vol.py -f Bob.vmem --profile=WinXPSP2x86 strings -s export1.txt 
+python vol.py -f Bob.vmem --profile=WinXPSP2x86 strings -s export1.txt 
 python vol.py --profile=Win7SP0x86 strings –f win7.dd –s win7_strings.txt --output-file=win7_vol_strings.txt
 python vol.py --profile=Win7SP0x86 strings –f win7.dd –s win7_strings.txt --output-file=win7_vol_strings.txt -S 
 python vol.py --profile=Win7SP0x86 strings –f win7.dd –s win7_strings.txt --output-file=win7_vol_strings.txt -o 0x04a291a8
