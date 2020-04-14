@@ -56,10 +56,17 @@ $
 Following is the complete `Volatility Cheat Sheet` which we will refer when we get started
 
 
+## Image Identification
+
 ```
 python vol.py -f ~/Desktop/win7_trial_64bit.raw imageinfo
 python vol.py -f Win2K3SP2x64-6f1bedec.vmem --profile=Win2003SP2x64 kdbgscan
 python vol.py -f dang_win7_x64.raw --profile=Win7SP1x64 kpcrscan
+```
+
+## Processes and DLL's
+
+```
 python vol.py -f ~/Desktop/win7_trial_64bit.raw --profile=Win7SP0x64 pslist
 python vol.py -f ~/Desktop/win7_trial_64bit.raw --profile=Win7SP0x64 pslist -P 
 python vol.py -f ~/Desktop/win7_trial_64bit.raw --profile=Win7SP0x64 pstree
@@ -81,6 +88,11 @@ python vol.py -f ~/Desktop/win7_trial_64bit.raw --profile=Win7SP0x64 verinfo
 python vol.py --plugins=contrib/plugins/ -f ~/Desktop/win7_trial_64bit.raw --profile=Win7SP0x64 enumfunc -h
 python vol.py --plugins=contrib/plugins/ -f ~/Desktop/win7_trial_64bit.raw --profile=Win7SP0x64 enumfunc -P -E
 python vol.py --plugins=contrib/plugins/ -f ~/Desktop/win7_trial_64bit.raw --profile=Win7SP0x64 enumfunc -K -I
+```
+
+## Process Memory
+
+```
 python vol.py -f ~/Desktop/win7_trial_64bit.raw --profile=Win7SP0x64 memmap -p 4 
 python vol.py -f ~/Desktop/win7_trial_64bit.raw --profile=Win7SP0x64 memdump -p 4 -D dump/
 python vol.py -f ~/Desktop/win7_trial_64bit.raw --profile=Win7SP0x64 volshell
@@ -92,6 +104,12 @@ python vol.py -f ~/Desktop/win7_trial_64bit.raw --profile=Win7SP0x64 vaddump -D 
 python vol.py -f WinXPSP1x64.vmem --profile=WinXPSP2x64 evtlogs -D output
 python vol.py -f WinXPSP1x64.vmem --profile=WinXPSP2x64 evtlogs
 python vol.py -f exemplar17_1.vmem iehistory
+```
+
+
+## Kernel Memory and Objects
+
+```
 python vol.py -f ~/Desktop/win7_trial_64bit.raw --profile=Win7SP0x64 modules
 python vol.py -f ~/Desktop/win7_trial_64bit.raw --profile=Win7SP0x64 modules -P
 python vol.py -f ~/Desktop/win7_trial_64bit.raw --profile=Win7SP0x64 modscan
@@ -106,11 +124,21 @@ python vol.py -f grrcon.img dumpfiles --summary=grrcon_summary.json -D output/
 python vol.py -f mebromi.raw filescan |grep -i mft
 python vol.py -f mebromi.raw dumpfiles -D output/ -Q 0x02539e30
 python vol.py -f win7_trial_64bit.raw unloadedmodules --profile=Win7SP0x64
+```
+
+## Networking
+
+```
 python vol.py -f Win2003SP2x64.vmem --profile=Win2003SP2x64 connections
 python vol.py -f Win2K3SP0x64.vmem --profile=Win2003SP2x64 connscan
 python vol.py -f Win2K3SP0x64.vmem --profile=Win2003SP2x64 sockets
 python vol.py -f Win2K3SP0x64.vmem --profile=Win2003SP2x64 sockscan
 python vol.py -f ~/Desktop/win7_trial_64bit.raw --profile=Win7SP0x64 netscan
+```
+
+## Registry (For Windows which we don't need! but lets keep it here)
+
+```
 python vol.py -f ~/Desktop/win7_trial_64bit.raw --profile=Win7SP0x64 hivescan
 python vol.py -f ~/Desktop/win7_trial_64bit.raw --profile=Win7SP0x64 hivelist
 python vol.py -f ~/Desktop/win7_trial_64bit.raw --profile=Win7SP0x64 printkey -K "Microsoft\Security Center\Svc"
@@ -130,6 +158,12 @@ python vol.py -f WinXPSP1x64.vmem --profile=WinXPSP2x64 getservicesids
 python vol.py -f voltest.dmp --profile=Win7SP1x86 dumpregistry -D output
 python vol.py -f voltest.dmp --profile=Win7SP1x86 hivelist
 python vol.py -f voltest.dmp --profile=Win7SP1x86 dumpregistry -o 0x8cec09d0 -D output/
+```
+
+
+## Crash dumps, Hiberation, Conversion
+
+```
 python vol.py -f win7_x64.dmp --profile=Win7SP0x64 crashinfo
 python vol.py -f hiberfil.sys --profile=Win7SP1x64 hibinfo
 python vol.py -f win7_x64.dmp --profile=Win7SP0x64 imagecopy -O copy.raw
@@ -137,6 +171,12 @@ python vol.py -f ~/Desktop/win7_trial_64bit.raw --profile=Win7SP0x64 raw2dmp -O 
 python vol.py -f ~/Desktop/win7sp1x64_vbox.elf --profile=Win7SP1x64 vboxinfo 
 python vol.py -f ~/Desktop/Win7SP1x64-d8737a34.vmss vmwareinfo --verbose | less
 python vol.py -f memdump.hpak hpakinfo
+```
+
+
+## File System
+
+```
 python vol.py -f [sample] mbrparser -H
 python vol.py -f [sample] -o 0x600 mbrparser
 python vol.py mbrparser -f AnalysisXPSP3.vmem -M 6010862faee6d5e314aba791380d4f41
@@ -146,6 +186,12 @@ python vol.py mbrparser -f AnalysisXPSP3.vmem -o 0x600
 python vol.py mbrparser -f AnalysisXPSP3.vmem -o 0x600 -D 0x1b
 python vol.py -f Bob.vmem mftparser
 python vol.py -f grrcon.img mftparser --output=body -D output --output-file=grrcon_mft.body
+```
+
+
+## Others
+
+```
 python vol.py -f Bob.vmem --profile=WinXPSP2x86 strings -s export.txt 
 python vol.py -f Bob.vmem --profile=WinXPSP2x86 strings -s export1.txt 
 python vol.py --profile=Win7SP0x86 strings –f win7.dd –s win7_strings.txt --output-file=win7_vol_strings.txt
