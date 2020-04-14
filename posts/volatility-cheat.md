@@ -5,7 +5,7 @@
 ## What is Volatility ?
 
 Recently I was reading about `Memory Forensics` and it seems `Volatility` is the tool of choice for 
-performing memory forensics. Provided you have an raw image file of the primary memory or RAM dumped 
+performing memory forensics. Provided you have an raw image of the primary memory or RAM dumped 
 to a file on disk, you can run various commands or plugins provided by Volatility on this image to 
 extract important information.
 
