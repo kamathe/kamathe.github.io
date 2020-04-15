@@ -3,6 +3,7 @@
 # Posts
 
 
+- ## **[Find libc function address in binary](posts/libc-function-address.md)**
 - ## **[Build a Linux profile for Volatitliy](posts/volatility-linux-profile.md)**
 - ## **[Volatility Cheat Sheet](posts/volatility-cheat.md)**
 - ## **[radare2 Introduction](posts/radare2.md)**
