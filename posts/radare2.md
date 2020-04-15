@@ -49,6 +49,7 @@ I will keep updating this post as I learn more about radare2
 ## Find out various functions within the binary
 
 `afl`       - List all functions
+
 `afll`      - Additional details about the functions
 
 ## Find out the `Imports` functions
