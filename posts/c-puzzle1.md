@@ -6,7 +6,7 @@
 I've been wanting to refresh my C skills considering they are must have if you are thinking of doing any systems work.
 However reading dry text or books on the syntax gets quiet boring quickly. Yes you need to write programs on
 the side to really get a hang of things. Also you need to you read a lot of code from some good open source repo,
-to understand the correct way of writing programs. The idea if get comfortable with a given C code base.
+to understand the correct way of writing programs. The idea is to get comfortable with a given C code base.
 However given the free nature of C there are a thousand ways in which people can write C which makes it tricky.
 Also there are a lot of  gotcha's which one needs to be aware of when working with C.
 
@@ -98,6 +98,23 @@ So our final answer Look like this
 0
 1
 ```
+
+
+## Execution
+
+Executing our program gives the expected results
+
+```
+$ ./a.out 
+11
+1
+0
+1
+$ 
+```
+
+
+## Assembly
 
 
 Finally to our bonus point of looking at the Assembly to figure out what happens beneath !
