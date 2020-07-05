@@ -4,6 +4,11 @@
 
 ## Some random Golang notes and sample code snippets 
 
+
+- [import package without using](#import package without using it)
+- [directly using packages from github](#directly using packages from github)
+
+
 ## import package without using it
 
 ```
