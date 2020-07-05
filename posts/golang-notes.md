@@ -7,7 +7,7 @@
 
 - [import package without using](#import package without using it)
 - [directly using packages from github](#directly using packages from github)
-- [logging to files](#Logging to files)
+- [logging to files](#logging-to-files)
 
 
 ## import package without using it
