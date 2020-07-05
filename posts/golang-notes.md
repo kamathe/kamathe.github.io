@@ -193,7 +193,7 @@ if err != nil {
 # handling error, terminate program
 
 if err != nil {
-	panic(err)
+	panic(err)			# panicking
 	os.Exit(1)
 }
 ```
