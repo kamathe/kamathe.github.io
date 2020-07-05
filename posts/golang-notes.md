@@ -5,9 +5,15 @@
 ## Some random Golang notes and sample code snippets 
 
 
-- [import package without using](#import package without using it)
+- [import package without using](#import-package-without-using-it)
 - [directly using packages from github](#directly using packages from github)
+- [Different print functions](#different-print-functions)
+- [Capturing command-line args](#capturing-command-line-args)
+- [Input/Ouput without using fmt package](#input/ouput-without-using-fmt-package)
 - [logging to files](#logging-to-files)
+- [Errors and Error handling](#errors-and-error-handling)
+
+
 
 
 ## import package without using it
