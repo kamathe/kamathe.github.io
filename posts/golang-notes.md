@@ -9,7 +9,7 @@
 - [directly using packages from github](#directly using packages from github)
 - [Different print functions](#different-print-functions)
 - [Capturing command-line args](#capturing-command-line-args)
-- [Input/Ouput without using fmt package](#input/ouput-without-using-fmt-package)
+- [Input Ouput without using fmt package](#input-ouput-without-using-fmt-package)
 - [logging to files](#logging-to-files)
 - [Errors and Error handling](#errors-and-error-handling)
 
@@ -104,7 +104,7 @@ arguments := os.Args
 ```
 
 
-## Input/Ouput without using fmt package
+## Input Ouput without using fmt package
 
 
 ```
