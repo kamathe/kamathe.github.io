@@ -6,6 +6,7 @@ The purpose of this blog is to document my learning on the following topics
 - Linux Security
 - Linux Malware Analysis
 - Reverse Engineering
+- Golang, Python, bash
 
 Reverse Engineering is a broad field which requires a lot of knowledge about diverse areas.
  Since the platform of choice for us is Linux we will name tools specific to Linux.
