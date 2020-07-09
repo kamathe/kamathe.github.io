@@ -18,6 +18,7 @@
 - [Cross compilation](#cross-compilation)
 - [Print Node tree information](#print-node-tree-information)
 - [Go build versbose info](#go-build-versbose-info)
+- [Golang basic types] (#golang-basic-types)
 
 
 
@@ -184,7 +185,10 @@ log.Panic(sysLog)
 ## Errors and Error handling
 
 ```
-err := errros.New("test error message")
+
+# introduce new errors
+
+err := errors.New("test error message")
 return err
 
 # checking errors
@@ -350,6 +354,49 @@ go tool compile -W hello.go | grep <func-name>
 go build -x hello.go
 
 ```
+
+
+
+## Golang basic types
+
+
+```
+
+# basic types
+
+bool
+string
+
+
+# float
+
+float32
+float64
+
+# complex
+
+complex64
+complex128
+
+# other
+
+byte	# alias for uint8
+rune	# alias for uint32
+
+# numeric types
+
+int8	# (-128 to 127)
+int16	# (-32768 to 32767)
+int32	# (-2147483648 to 214748647)
+int64	# (-9223372036854775808 to 9223372036854775807)
+
+
+uint8	# (0 to 255)
+unit16	# (0 to 65535)
+uint32	# (0 to 4294967295)
+uint64	# (0 to 18446744073709551615)
+```
+
 
 
 
