@@ -18,7 +18,7 @@
 - [Cross compilation](#cross-compilation)
 - [Print Node tree information](#print-node-tree-information)
 - [Go build versbose info](#go-build-versbose-info)
-- [Golang basic types] (#golang-basic-types)
+- [Golang basic types](#golang-basic-types)
 
 
 
