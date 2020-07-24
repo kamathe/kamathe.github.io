@@ -303,6 +303,75 @@ int main(void)
 
 ```
 
+## Another important gcc flag to keep in mind
+
+```
+
+# compiling with gcc -Wa,-adhln -g <file.c>
+# gives important info on linking etc
+
+
+$ cat hello.c 
+#include <stdio.h>
+
+int main() {
+	printf("hello world\n");
+	return 0;
+}
+$ 
+$ gcc -Wa,-adhln -g hello.c 
+   1              		.file	"hello.c"
+   2              		.text
+   3              	.Ltext0:
+   4              		.section	.rodata
+   5              	.LC0:
+   6 0000 68656C6C 		.string	"hello world"
+   6      6F20776F 
+   6      726C6400 
+   7              		.text
+   8              		.globl	main
+  10              	main:
+  11              	.LFB0:
+  12              		.file 1 "hello.c"
+   1:hello.c       **** #include <stdio.h>
+   2:hello.c       **** 
+   3:hello.c       **** int main() {
+  13              		.loc 1 3 12
+  14              		.cfi_startproc
+  15 0000 55       		pushq	%rbp
+  16              		.cfi_def_cfa_offset 16
+  17              		.cfi_offset 6, -16
+  18 0001 4889E5   		movq	%rsp, %rbp
+  19              		.cfi_def_cfa_register 6
+   4:hello.c       **** 	printf("hello world\n");
+  20              		.loc 1 4 2
+  21 0004 BF000000 		movl	$.LC0, %edi
+  21      00
+  22 0009 E8000000 		call	puts
+  22      00
+   5:hello.c       **** 	return 0;
+  23              		.loc 1 5 9
+  24 000e B8000000 		movl	$0, %eax
+  24      00
+   6:hello.c       **** }
+  25              		.loc 1 6 1
+  26 0013 5D       		popq	%rbp
+  27              		.cfi_def_cfa 7, 8
+  28 0014 C3       		ret
+  29              		.cfi_endproc
+  30              	.LFE0:
+  32              	.Letext0:
+  33              		.file 2 "/usr/lib/gcc/x86_64-redhat-linux/9/include/stddef.h"
+  34              		.file 3 "/usr/include/bits/types.h"
+  35              		.file 4 "/usr/include/bits/types/struct_FILE.h"
+  36              		.file 5 "/usr/include/bits/types/FILE.h"
+  37              		.file 6 "/usr/include/stdio.h"
+  38              		.file 7 "/usr/include/bits/sys_errlist.h"
+$ 
+```
+
+
+
 
 ## Conclusion
 
