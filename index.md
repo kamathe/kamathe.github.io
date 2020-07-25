@@ -3,6 +3,7 @@
 # Posts
 
 
+- ## **[Golang Compiler Notes](posts/golang-compiler-notes.md)**
 - ## **[Tmux Notes](posts/tmux-notes.md)**
 - ## **[Golang Notes](posts/golang-notes.md)**
 - ## **[C Puzzle 1](posts/c-puzzle1.md)**
